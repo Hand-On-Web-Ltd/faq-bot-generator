@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What are your opening hours?",
+    "answer": "We're open Monday to Friday from 8:30am to 5:30pm, and Saturday from 9am to 1pm. We're closed on Sundays and bank holidays."
+  },
+  {
+    "question": "How do I book an appointment?",
+    "answer": "You can book online through our website, call us on 01234 567890, or pop in to reception. We usually have appointments available within a week."
+  },
+  {
+    "question": "Do you accept NHS patients?",
+    "answer": "Yes, we accept both NHS and private patients. Some treatments are only available privately — ask at reception for details."
+  },
+  {
+    "question": "How much does a check-up cost?",
+    "answer": "An NHS check-up is £26.80 (Band 1). A private check-up is £55, which includes a full examination and X-rays if needed."
+  },
+  {
+    "question": "What should I do if I have a dental emergency?",
+    "answer": "Call us as soon as possible on 01234 567890. We keep emergency slots open each day. If it's outside hours, call 111 for the nearest out-of-hours service."
+  },
+  {
+    "question": "Do you offer teeth whitening?",
+    "answer": "Yes, we offer both in-surgery whitening (from £350) and take-home whitening kits (from £250). Book a consultation to find out which option suits you."
+  },
+  {
+    "question": "Can I bring my child to the practice?",
+    "answer": "Absolutely. We treat children of all ages and NHS dental care is free for under-18s. We recommend bringing children from around age 2 so they get used to the dentist early."
+  },
+  {
+    "question": "Where do I park?",
+    "answer": "There's a small car park behind the building with 8 spaces for patients. Street parking is also available on Mill Lane — it's free for 2 hours."
+  },
+  {
+    "question": "What happens if I miss my appointment?",
+    "answer": "We ask for at least 24 hours notice if you need to cancel. Missed appointments without notice may be charged a £25 fee, and repeated no-shows may affect your registration."
+  },
+  {
+    "question": "Do you offer payment plans?",
+    "answer": "Yes, we offer interest-free payment plans for treatments over £300. We also have a monthly dental plan at £12.50/month that covers check-ups, hygienist visits, and gives you 10% off other treatments."
+  }
+]
