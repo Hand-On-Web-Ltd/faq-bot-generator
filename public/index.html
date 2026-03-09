@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Bot Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>🤖 FAQ Bot Generator</h1>
+            <p>Upload your FAQs, then test the bot</p>
+        </header>
+
+        <div class="panels">
+            <div class="panel faq-panel">
+                <h2>Your FAQs</h2>
+                <div class="upload-area">
+                    <textarea id="faqInput" placeholder='Paste your FAQs as JSON:
+[
+  {"question": "...", "answer": "..."},
+  {"question": "...", "answer": "..."}
+]
+
+Or click "Load Sample" to try it out.'></textarea>
+                    <div class="buttons">
+                        <button onclick="loadSample()">Load Sample</button>
+                        <button onclick="uploadFaqs()" class="primary">Upload FAQs</button>
+                    </div>
+                </div>
+                <div id="faqList" class="faq-list"></div>
+                <div id="faqStatus" class="status"></div>
+            </div>
+
+            <div class="panel chat-panel">
+                <h2>Test the Bot</h2>
+                <div class="chat-messages" id="messages">
+                    <div class="message bot">Upload some FAQs on the left, then ask me anything here.</div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="questionInput" placeholder="Ask a question..." autocomplete="off">
+                    <button onclick="askQuestion()">Ask</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            Built by <a href="https://www.handonweb.com" target="_blank">Hand On Web</a>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
