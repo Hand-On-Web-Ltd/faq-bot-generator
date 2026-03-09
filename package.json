@@ -1,0 +1,20 @@
+{
+  "name": "@hand-on-web/faq-bot-generator",
+  "version": "1.0.0",
+  "description": "Upload FAQs, get a working chatbot. Uses OpenAI embeddings to match questions to answers.",
+  "main": "server.js",
+  "homepage": "https://www.handonweb.com",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["faq", "chatbot", "openai", "embeddings", "nodejs", "customer-service"],
+  "author": "Hand On Web Ltd <outreach@handonweb.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.28.0"
+  }
+}
